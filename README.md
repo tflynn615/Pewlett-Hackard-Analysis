@@ -10,7 +10,7 @@ Below are four results gained from this analysis:
 
 - Since the client is interested in knowing what current roles they are likely to need to refill in the near future, we can filter to the most recent title for each of these employees if we order the employee records by their "To Date" in descending order and then use the "Distinct On" function to pull only one record. nu
 
-![unique_titles.png](Data/unique_titles.png)
+
 
 - Then the aggregate numbers for each role were calculated for employees becoming eligible for retirement, with Senior Engineer and Senior Staff respectively making the most impacted roles. 
 

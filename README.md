@@ -21,6 +21,5 @@ Below are four results gained from this analysis:
 ![mentorship.png](Data/mentorship.png)
 
 ## Summary
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+It looks like a high number of employees are nearing retirement eligibility, but there are a few things to consider before determining if this is something to worry about. If we sum the count of employees in the retiring_titles table, we see that about 90,000 roles are likely to need to be filled in the next few years. The current mentorship program only looks at employees born in 1965, but if expanding the selection, it could be possible to prepare the necessary backfills for these upcoming vacancies. I would recommend a table that looks at employees born in 1965-1970 to see if this numnber meets the needs of filling the roles we've analyzed in this project. I would also recommmend a table that looks at the number of current employees in lower level positions grouped by age to view the overall talent funnel within the company. 
